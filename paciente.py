@@ -15,4 +15,23 @@ def rut(self, rut:str)->None:
 
 ## property es para obtener el dato
 ## mientras que el setter es para guardar los datos
-def nombre(self)->str
+@property
+def nombre(self)->str:
+    return self.nombre
+@nombre.setter
+def nombre(self, nombre:str):
+    self._nombre = nombre
+
+@property
+def edad(self)->int:
+    return self.edad
+@edad.setter
+def edad(self, edad:int)-> None:
+    self._edad = edad
+
+@property
+def prevision(self)->str:
+    return self.prevision
+@prevision.setter
+def prevision(self, prevision:str):
+    self._prevision = prevision
