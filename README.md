@@ -5,3 +5,5 @@
 ### git config --global user.email email_github
 ### git add .
 ### git commit -m "Seguir con la clase"
+
+### instalar el sqlite viewer y el python 
